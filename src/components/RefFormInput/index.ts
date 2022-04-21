@@ -1,6 +1,4 @@
-import InputComponent from "./InputComponent";
-
-const RefFormInput = InputComponent;
+import RefFormInput from "./component";
 
 export type InputConfig = {
   name: string;
