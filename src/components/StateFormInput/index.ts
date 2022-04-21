@@ -1,3 +1,3 @@
-import StateFormInput from "./Input";
+import StateFormInput from "./component";
 
 export default StateFormInput;

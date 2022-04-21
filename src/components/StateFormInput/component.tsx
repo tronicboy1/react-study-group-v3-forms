@@ -1,6 +1,6 @@
 import React from "react";
 import { InputConfig } from "../RefFormInput";
-import styles from "./Input.module.css";
+import styles from "./styles.module.css";
 
 const InputComponent: React.FC<{
   config: InputConfig;
