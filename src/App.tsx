@@ -15,7 +15,7 @@ const App: React.FC = () => {
     <>
       <Card>
         <form>
-          <RefFormInput config={{ name: "first-name", label: "名", helpText: "名前はこちら" }} />
+          <RefFormInput config={{ name: "first-name", label: "名", helpText: "名前はこちら", error: "Oh no!" }} />
           <StateFormInput
             config={{ name: "last-name", label: "姓" }}
             value={lastName}

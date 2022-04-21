@@ -28,6 +28,13 @@
 }
 
 .error {
-  color: rgb(142, 30, 30);
+  color: red;
   font-size: large;
+  font-weight: 500;
+  margin: 0.25rem 0;
+  padding: 0.5rem;
+  width: 80%;
+  background-color: rgb(255, 245, 245);
+  border: 1px rgb(255, 213, 213) solid;
+  border-radius: 4px;
 }
