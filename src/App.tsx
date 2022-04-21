@@ -10,13 +10,12 @@ const App: React.FC = () => {
 
   const nameRef = useRef<HTMLInputElement>(null);
   const [lastName, setLastName] = useState("");
-  console.log(lastName)
 
   return (
     <>
       <Card>
         <form>
-          <RefFormInput config={{ name: "first-name", label: "名" }} />
+          <RefFormInput config={{ name: "first-name", label: "名", helpText: "名前はこちら" }} />
           <StateFormInput
             config={{ name: "last-name", label: "姓" }}
             value={lastName}

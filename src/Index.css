@@ -9,3 +9,11 @@ h1 {
 html {
   margin: 0;
 }
+
+button {
+  width: 80%;
+  min-height: 40px;
+  background-color: rgb(33, 33, 135);
+  color: white;
+  border: rgb(33, 33, 135) 1px solid;
+}

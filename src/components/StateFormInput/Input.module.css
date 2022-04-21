@@ -14,11 +14,13 @@
 
 .input-row span {
   flex: 40%;
+  margin: auto 0.25rem;
 }
 
 .group {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
 }
 
 .group label {
