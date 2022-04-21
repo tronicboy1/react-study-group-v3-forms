@@ -1,0 +1,31 @@
+.input-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+}
+
+.input-row input {
+  flex: 60%;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 4px;
+  padding: 1rem;
+  height: 40px;
+}
+
+.input-row span {
+  flex: 40%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.group label {
+  margin-bottom: 0.5rem;
+}
+
+.error {
+  color: rgb(142, 30, 30);
+  font-size: large;
+}
