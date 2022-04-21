@@ -12,7 +12,9 @@ const InputComponent: React.FC<{
 
   return (
     <div className={styles.group}>
-      <label htmlFor={config.name}>{config.label}</label>
+      <label htmlFor={config.name}>
+        {config.label} {config.required && <i aria-hidden>*</i>}
+      </label>
       <div className={styles["input-row"]}>
         <input
           id={config.name}
@@ -21,6 +23,8 @@ const InputComponent: React.FC<{
           onChange={(event) => onInput(event.currentTarget.value)}
           value={value}
           aria-describedby={errorId + helpTextId}
+          aria-required={config.required}
+          autoComplete={config.autoComplete}
         />
         {config.helpText && (
           <span id={`${config.name}-help-text`}>{config.helpText}</span>

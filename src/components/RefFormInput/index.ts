@@ -1,3 +1,4 @@
+import React from "react";
 import RefFormInput from "./component";
 
 export type InputConfig = {
@@ -6,6 +7,8 @@ export type InputConfig = {
   label: string;
   type?: React.HTMLInputTypeAttribute;
   error?: string;
+  required?: boolean;
+  autoComplete?: string;
 };
 
 export default RefFormInput;
