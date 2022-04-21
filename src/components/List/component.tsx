@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./List.module.css";
+import styles from "./styles.module.css";
 import ListItem from "./ListItem";
 import { Post } from "./types";
 

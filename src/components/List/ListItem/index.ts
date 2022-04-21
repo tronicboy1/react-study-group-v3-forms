@@ -1,3 +1,3 @@
-import ListItem from "./ListItem";
+import ListItem from "./component";
 
 export default ListItem;

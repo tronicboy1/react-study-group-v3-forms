@@ -1,6 +1,6 @@
 import React from "react";
 import { InputConfig } from ".";
-import styles from "./Input.module.css";
+import styles from "./styles.module.css";
 
 
 

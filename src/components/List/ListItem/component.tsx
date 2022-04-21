@@ -1,6 +1,6 @@
 import React from "react";
 import { Post } from "../types";
-import styles from "./ListItem.module.css";
+import styles from "./styles.module.css";
 
 const ListItemComponent: React.FC<{ data: Post }> = ({ data }) => {
   return (
