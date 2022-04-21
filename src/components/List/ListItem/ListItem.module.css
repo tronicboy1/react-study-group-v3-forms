@@ -8,3 +8,13 @@
   border: 1px solid rgb(237, 237, 237);
   border-radius: 8px;
 }
+
+.item:hover {
+  background-color: rgb(241, 241, 241);
+  border: 1px solid rgb(241, 241, 241);
+  cursor: pointer;
+}
+
+.item h3 {
+  margin-top: 0;
+}
