@@ -9,6 +9,7 @@ export const sendPost = (postData: Omit<Post, "id">) =>
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
+        sender: postData.sender,
         title: postData.title,
         body: postData.body,
         createdAt: postData.createdAt.getTime(),

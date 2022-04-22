@@ -8,6 +8,7 @@ const ListItemComponent: React.FC<{ data: Post }> = ({ data }) => {
       <h3>{data.title}</h3>
       <p>{data.body}</p>
       <br />
+      <small>{data.sender}</small>
       <small>{data.createdAt.toLocaleString()}</small>
     </li>
   );
