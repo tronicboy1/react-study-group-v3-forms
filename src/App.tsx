@@ -8,27 +8,10 @@ import useList from "./components/List/use-list";
 const App: React.FC = () => {
   const posts = useList();
 
-  const nameRef = useRef<HTMLInputElement>(null);
-  const [lastName, setLastName] = useState("");
-
   return (
     <>
       <Card>
         <form>
-          <RefFormInput
-            config={{
-              name: "first-name",
-              label: "名",
-              helpText: "名前はこちら",
-              error: "Oh no!",
-              required: true,
-            }}
-          />
-          <StateFormInput
-            config={{ name: "last-name", label: "姓" }}
-            value={lastName}
-            onInput={(value) => setLastName(value)}
-          />
         </form>
       </Card>
       <Card>
