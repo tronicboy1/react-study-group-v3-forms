@@ -17,11 +17,11 @@ const InputComponent: React.FC<{
       </label>
       <div className={styles["input-row"]}>
         <input
+          value={value}
+          onChange={(event) => onInput(event.currentTarget.value)}
           id={config.name}
           name={config.name}
           type={config.type ?? "text"}
-          onChange={(event) => onInput(event.currentTarget.value)}
-          value={value}
           aria-describedby={errorId + helpTextId}
           aria-required={config.required}
           autoComplete={config.autoComplete}
